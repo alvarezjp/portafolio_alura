@@ -1,11 +1,43 @@
 .menu {
+    position: relative;
+    /* text-align:center; */
+    height: 50px;
+
+    border: 4px red solid;
+   
+}
+.menu__header{
+    display: inline-block;
+    
+    
+    border: 5px brown solid;
+}
+.menu img{
+    
     border: 1px black solid;
+}
+
+
+.menu h3{
+    display: inline;
+    padding: 5px;
+    border: 2px yellow solid;
 }
 
 .menu nav {
-    border: 1px black solid;
+    border: 7px green solid;
+    display: inline;
 }
 
 .menu nav ul{
-    border: 1px black solid;
+    border: 2px blue solid;
+    display: inline;
+    
+
 }
+
+.menu nav ul li{
+    border: 3px black solid;
+    display: inline;
+}
+
