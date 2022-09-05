@@ -1,7 +1,19 @@
+.tudo{
+    display: flex;
+    justify-content: center;
+}
 .menu{
-    border: 4px green solid;
+    position: relative;
+    width: 1140px;
+    top: 34.5px;
+    padding-bottom: 50px;
+    /* border: 4px green solid; */
     display: grid;
-    grid-template-columns: 134px 349px 653px;
+    grid-template-columns: 134px  653px;
+    column-gap: 349px;
+    align-self: center;
+    
+    
 }
 .menu__header{
     display: grid;
@@ -15,6 +27,8 @@
 }
 .menu__list{
     
+    
+    /* border: 2px red solid; */
     display: grid;
     /* grid-column-start: 1; */
     /* grid-column-end: 4; */
@@ -22,3 +36,5 @@
     column-gap: 32px;
 
 }
+
+

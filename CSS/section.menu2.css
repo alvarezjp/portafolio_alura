@@ -1,0 +1,35 @@
+.todo {
+    /* width: 50%; */
+    border: 1px black solid;
+}
+
+.menu {
+    margin: 2px;
+    border: 1px blue solid;
+}
+
+.menu__header {
+    /* display: 	inline-flex; */
+    
+    border: 1px red solid;
+}
+
+.menu__title{
+    /* aqui debemos seguir */
+    display: inline-block;
+    border: 1px green solid;
+}
+
+.menu__list {
+    /* Utilizamos el display para utilizar el mismo espacio de los items */
+    display: inline-block;
+    border: 2px green solid;
+}
+
+.menu__list__item {
+    /* Dejar lista en linea y darle el margen de separacion */
+    display: inline;
+    margin-left: 2em;
+    border: 1px purple solid;
+    /* font-size: 30px; */
+}
