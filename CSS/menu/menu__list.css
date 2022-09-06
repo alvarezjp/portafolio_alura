@@ -1,0 +1,19 @@
+.menu__list {
+    /* Utilizamos el display para utilizar el mismo espacio de los items */
+    display: inline;
+    /* width: 56.51vw; el ancho segun % */
+    /* margin-right: 10em; */
+    /* border: 2px green solid; */
+}
+
+.menu__list__item {
+    /* Dejar lista en linea y darle el margen de separacion */
+    display: inline;
+    margin-left: 0.5vw;
+    /* border: 1px purple solid; */
+    
+}
+
+#contact{
+    font-weight: bold;
+}

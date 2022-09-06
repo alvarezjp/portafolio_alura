@@ -1,0 +1,17 @@
+.todo{
+    /* hay que ver que hacer para que quede centrado en toda las pantallas */
+    display: flex;
+    justify-content: center;
+    /* border: 1px blue solid; */
+    
+}
+
+.menu {
+    width: 78.89vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    /* border: 1px green solid; */
+}

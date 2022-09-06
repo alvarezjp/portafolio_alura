@@ -1,0 +1,39 @@
+.title{
+    display: flex;
+   justify-content: center;
+}
+
+.title__div{
+    display: flex;
+    width: 78.89vw;
+    flex-direction: row-reverse;
+    border: 2px black solid;
+}
+
+.title__profile{
+    border: 2px green solid;
+    width: 20vw;
+}
+.title__container{
+    /* width: 50vw; */
+    border: 2px red solid;
+}
+
+.title__bio{
+    font-size: 52px;
+    font-weight: bold;
+    width: 15em;
+    border: 3px yellow solid;
+}
+
+.title__subsection{
+    font-size: 22px;
+    
+}
+
+.title__network{
+    display: flex;
+    width: 37vw;
+    justify-content: space-between;
+    border: 1px blue solid;
+}

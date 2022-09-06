@@ -1,0 +1,16 @@
+.menu__header {
+    display: flex;    
+    align-items: center;
+    /* margin-left: 10em;     */
+    /* border: 1px red solid; */
+}
+
+.menu__title__img{
+    /* border: 1px rgb(194, 6, 100) solid; */
+} 
+
+.menu__title{
+    margin-left: 1em;
+    font-weight: bold;
+    /* border: 1px green solid; */
+}
