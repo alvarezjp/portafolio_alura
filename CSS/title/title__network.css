@@ -1,0 +1,12 @@
+.title__network {
+    display: flex;
+
+}
+
+.title__network__item {
+    margin-right: 3.5em;
+}
+
+.title__network__item img {
+    width: 0.9vw;
+}

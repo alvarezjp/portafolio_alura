@@ -1,0 +1,27 @@
+.skills{
+    /* border: 3px black solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4.87vh;
+    
+    
+}
+
+.skills__title{
+    /* border: 2px green solid; */
+    width: 78.89vw;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.skills__line{
+    /* border: 1px red solid; */
+    width: 78.89vw;
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.87vh;
+}
+

@@ -1,0 +1,18 @@
+.about__container{
+    width: 78.89vw;
+}
+
+.about__title{
+    margin-top: 9.74vh;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.about__paragraph{
+    margin-top: 2.43vh;
+    width: 53vw;
+} 
+
+.about__container img{
+    margin-top: 2.43vh;
+}

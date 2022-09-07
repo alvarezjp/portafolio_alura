@@ -1,0 +1,23 @@
+.skills__box{
+    border: 1px blue solid;
+    width: 12vw;
+    height: 17vh;
+    display: flex;
+    align-items: flex-end;
+
+    }
+
+    .skills__box ul{
+        border: 2px green solid;
+        align-content: flex-start;
+    }
+
+    .skills__box img{
+        
+        border: 1px black solid;
+    } 
+
+    .skills__name{
+        margin: 0.5em;
+        border: 1px black solid;
+    }

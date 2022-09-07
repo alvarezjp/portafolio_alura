@@ -1,0 +1,25 @@
+.title__div {
+    display: flex;
+    width: 78.89vw;
+    flex-direction: row-reverse;
+    /* border: 2px black solid; */
+}
+
+.title__profile {
+    /* border: 2px green solid; */
+    width: 22vw;
+}
+
+.title__bio {
+    margin-top: 0.5em;
+    font-size: 52px;
+    font-weight: bold;
+    /* border: 3px yellow solid; */
+}
+
+.title__subsection {
+    font-size: 22px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
