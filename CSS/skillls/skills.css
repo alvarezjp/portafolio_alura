@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 4.87vh;
+    margin-top: 8vh;
     
     
 }
@@ -19,7 +19,7 @@
 .skills__line{
     /* border: 1px red solid; */
     width: 78.89vw;
-    height: 17vh;
+    height: 0.1vh;
     display: flex;
     justify-content: space-between;
     margin-top: 4.87vh;

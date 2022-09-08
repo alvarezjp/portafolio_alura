@@ -1,0 +1,8 @@
+.hobbies{
+    
+}
+
+.hobbies__line{
+    display: flex;
+    border: 1px black solid;
+}
