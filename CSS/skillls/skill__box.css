@@ -1,7 +1,7 @@
 .skills__box{
     border: 1px blue solid;
     width: 12vw;
-    height: 17vh;
+    height: 21vh;
     display: flex;
     align-items: flex-end;
 
@@ -9,15 +9,19 @@
 
     .skills__box ul{
         border: 2px green solid;
-        align-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1em;
+        
     }
 
     .skills__box img{
-        
         border: 1px black solid;
+        width: 2em;
     } 
 
     .skills__name{
-        margin: 0.5em;
         border: 1px black solid;
+        font-size: 20px;
     }
