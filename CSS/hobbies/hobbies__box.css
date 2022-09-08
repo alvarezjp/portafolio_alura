@@ -1,4 +1,25 @@
-.hobbies__box{
+    .hobbies__box{
+    /* border: 1px blue solid; */
+    width: 12vw;
+    height: 21vh;
+    background: #FFFFFF;
     display: flex;
-    
-}
+    align-items: flex-end;
+
+    }
+
+    .hobbies__box ul{
+        /* border: 2px green solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1em;
+        
+    }
+
+    .hobbies__name{
+        /* border: 1px black solid; */
+
+        margin-top: 0.4em;
+        
+    }

@@ -1,8 +1,25 @@
 .hobbies{
-    
+    /* border: 3px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    height: 33vh;    
+}
+
+.hobbies__title{
+    /* border: 2px green solid; */
+    width: 78.89vw;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .hobbies__line{
+    /* border: 1px red solid; */
+    width: 78.89vw;
+    height: 0.1vh;
     display: flex;
-    border: 1px black solid;
+    justify-content: space-between;
+    margin-top: 4.87vh;
 }
