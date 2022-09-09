@@ -1,6 +1,19 @@
 .academic__courses__box{
-    width: 24vw;
+    width: 25vw;
     height: 42vh;
-    border: 2px green solid;
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border: 2px green solid;   
+}
+
+.academic__courses__item__img{
+    padding: 7vh 6vw ;
+    background: white;
+}
+
+.academic__courses__item__title{
+    font-weight: bold;
+    margin: 1vh auto;
 }
