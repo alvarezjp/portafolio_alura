@@ -1,0 +1,6 @@
+.academic__courses{
+    display: flex;
+    width: 78.89vw;
+    justify-content: space-between;
+    border: 2px blue solid;
+}
