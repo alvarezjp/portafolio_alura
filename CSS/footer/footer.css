@@ -1,0 +1,17 @@
+.footer {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.footer__rodape {
+    /* border: 1px solid red; */
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+    padding: 5vh;
+    width: 78.89vw;
+
+
+}

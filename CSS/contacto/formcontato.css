@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     background: #EAF2FD;
-    padding: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 }
 
 .formcontato__contacto {
