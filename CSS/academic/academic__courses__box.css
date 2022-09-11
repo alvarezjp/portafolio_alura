@@ -5,7 +5,9 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    border: 2px green solid;   
+    /* border: 2px green solid;    */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .academic__courses__item__img{
