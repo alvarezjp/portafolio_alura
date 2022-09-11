@@ -1,0 +1,24 @@
+.formcontato__text {
+    /* border: 2px green solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.formcontato__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 1.5vh;
+}
+
+.formcontato__subtext {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 4vh;
+}

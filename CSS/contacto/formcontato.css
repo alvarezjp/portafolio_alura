@@ -1,0 +1,14 @@
+.formcontato {
+    /* border: 1px black solid; */
+    display: flex;
+    justify-content: center;
+    background: #EAF2FD;
+    padding: 10vh;
+}
+
+.formcontato__contacto {
+    /* border: 1px red solid; */
+    width: 78.89vw;
+    display: flex;
+    height: auto;
+}

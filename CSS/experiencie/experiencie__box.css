@@ -1,0 +1,14 @@
+.experiencie__box{
+    width: 78.89vw;
+    justify-content: center;
+    align-items:  center;
+    display: flex;
+    margin: 4.87vh auto;
+}
+
+.inversa{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+   
+}
