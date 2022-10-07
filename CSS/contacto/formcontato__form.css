@@ -13,7 +13,8 @@
     background-color: white;
     border: 0;
     margin-bottom: 4.9vh;
-    outline: none; /*quita el borde al momento de escribir*/
+    /* quita el borde al momento de escribir */
+    outline: none; 
     -webkit-box-shadow: 0 0 0 25px white inset !important;
 }
 
