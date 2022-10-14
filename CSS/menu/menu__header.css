@@ -14,3 +14,21 @@
     font-weight: bold;
     /* border: 1px green solid; */
 }
+
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    .menu__title{        
+        margin-left: 0.5vw;       
+    }
+
+}
+
+/*mobile*/
+@media (max-width: 425px) {
+
+   
+
+}

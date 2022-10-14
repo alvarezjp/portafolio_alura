@@ -10,3 +10,15 @@
 .title__network__item img {
     width: 0.9vw;
 }
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .title__network__item {
+        margin-right: 6.5vw;
+    }
+
+
+}
+
+/*mobile*/
+@media (max-width: 425px) {}

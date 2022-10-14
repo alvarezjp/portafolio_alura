@@ -1,6 +1,21 @@
 .title {
+    width: 100vw;
     margin-top: 2em;
     display: flex;
     justify-content: center;
     /* border: 1px black solid; */
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    
+
+}
+
+/*mobile*/
+@media (max-width: 425px) {
+
+   
+
 }
