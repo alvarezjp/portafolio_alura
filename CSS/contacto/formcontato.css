@@ -13,3 +13,20 @@
     display: flex;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .formcontato {
+        width: 100vw;
+    }
+
+    .formcontato__contacto {
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+}
+
+/*Tablet*/
+@media (max-width: 425px) {}

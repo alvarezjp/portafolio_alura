@@ -28,7 +28,6 @@
 @media (max-width: 768px) {
     .title__div{
         width: 90vw;
-        border: 1px red solid;
         
     }
     .title__profile{

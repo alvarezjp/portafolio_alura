@@ -1,5 +1,6 @@
 .hobbies{
     /* border: 3px red solid; */
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,4 +23,24 @@
     display: flex;
     justify-content: space-between;
     margin-top: 4.87vh;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    .hobbies{
+        height: auto;
+    }
+    .hobbies__title{
+        font-size: 22px;
+    }
+    .hobbies__line{
+        width: 90vw;
+        height: 48vh;
+        flex-wrap: wrap;
+    }
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
 }

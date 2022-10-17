@@ -22,3 +22,27 @@
     line-height: 19px;
     margin-bottom: 4vh;
 }
+
+@media (max-width: 768px) {
+
+    .formcontato__title {
+        font-size: 22px;
+    }
+
+    .formcontato__text {
+        margin-left: 0px;
+        /* border: 2px solid green; */
+        width: 80vw;
+    }
+
+    
+  
+
+}
+
+/*Tablet*/
+@media (max-width: 425px) {
+
+   
+
+}

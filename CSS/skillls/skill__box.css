@@ -23,3 +23,18 @@
         margin-top: 0.4em;
         
     }
+
+    @media (min-width: 768px) {
+        .skills__box{
+            /* border: 1px blue solid; */
+            width: 28vw;
+            height: 21vh;
+        
+            }
+    }
+    
+    /*Mobile*/
+    @media (min-width: 425px) {
+    
+    }
+    

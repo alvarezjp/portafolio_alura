@@ -16,3 +16,30 @@
 .about__container img{
     margin-top: 2.43vh;
 }
+
+@media (min-width: 768px) {
+    .about__container{
+        width: 90vw;
+    }
+
+    .about__title{
+        margin-top: 4vh;
+        font-size: 22px;
+    }
+
+    .about__paragraph{
+        font-size: 14px;
+        width: 90vw;
+    }
+
+    .about__container img{
+        margin-bottom: 4vh;
+    }
+
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

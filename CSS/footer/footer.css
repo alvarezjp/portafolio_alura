@@ -1,5 +1,6 @@
 .footer {
     /* border: 1px solid black; */
+    width: 100%;
     display: flex;
     justify-content: center;
     background: white;
@@ -13,5 +14,14 @@
     padding: 5vh;
     width: 78.89vw;
 
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
 
 }

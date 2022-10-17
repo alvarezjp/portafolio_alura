@@ -1,5 +1,6 @@
 .skills{
     /* border: 3px black solid; */
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,5 +23,27 @@
     display: flex;
     justify-content: space-between;
     margin-top: 4.87vh;
+}
+
+@media (min-width: 768px) {
+    .skills{
+        height: auto;
+    }
+
+    .skills__title{
+        font-size: 22px;
+    }
+    .skills__line{
+        /* border: 1px red solid; */
+        width: 90vw;
+        height: 48vh;
+        flex-wrap: wrap;
+    }
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
 }
 

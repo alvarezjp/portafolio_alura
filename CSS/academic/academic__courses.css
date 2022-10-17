@@ -1,6 +1,17 @@
-.academic__courses{
+.academic__courses {
     display: flex;
     width: 78.89vw;
     justify-content: space-between;
     /* border: 2px blue solid; */
 }
+
+/*Tablet*/
+@media (min-width: 768px) {
+    .academic__courses {
+        width: 90vw;
+        
+    }
+}
+
+/*Mobile*/
+@media (min-width: 425px) {}

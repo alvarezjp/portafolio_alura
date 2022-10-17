@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 2vh;
-    
+
 }
 
 .formcontato__input {
@@ -13,26 +13,21 @@
     background-color: white;
     border: 0;
     margin-bottom: 4.9vh;
-<<<<<<< HEAD
-    /* quita el borde al momento de escribir */
-    outline: none; 
-    -webkit-box-shadow: 0 0 0 25px white inset !important;
-=======
     /*quita el borde al momento de escribir*/
-    outline: none; 
+    outline: none;
     -webkit-box-shadow: 0 0 0 30px white inset !important;
->>>>>>> 4f994614edf22106c2791998cd6f98f8efee645c
 }
 
-.formcontato__input:-webkit-autofill{
+.formcontato__input:-webkit-autofill {
     /* Esto sirvio para dejar el recuadro blanco de auto relleno*/
     /* -webkit-box-shadow: 0 0 0 30px green inset !important; */
 }
 
-.formcontato__input:-webkit-autofill:hover{
+.formcontato__input:-webkit-autofill:hover {
     background: white;
-} 
-.formcontato__input:-webkit-autofill:focus{
+}
+
+.formcontato__input:-webkit-autofill:focus {
     background: white;
 }
 
@@ -51,3 +46,29 @@
     color: white;
     border: none;
 }
+
+@media (max-width: 768px) {
+    .formcontato__form {
+        width: 90vw;
+    }
+
+    .formcontato__input {
+        width: 89.5vw;
+        height: 9vh;
+    }
+
+    .formcontato__textarea {
+        width: 89vw;
+        height: 22vh;
+    }
+
+    .formcontato__botao {
+        width: 20vw;
+        font-size: 14;  
+    }
+
+
+}
+
+/*Tablet*/
+@media (max-width: 425px) {}

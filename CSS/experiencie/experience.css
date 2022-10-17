@@ -1,13 +1,30 @@
-.experience{
+.experience {
     /* border: 2px red solid; */
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top:  4.87vh;
+    margin-top: 4.87vh;
 }
 
-.experience__section__title{
+.experience__section__title {
     font-size: 32px;
-    font-weight: bold;    
+    font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .experience {
+
+        width: 100vw;
+    }
+
+    .experience__section__title {
+        font-size: 22px;
+    }
+
+
+}
+
+/*mobile*/
+@media (max-width: 425px) {}

@@ -1,7 +1,20 @@
 .about{
+    width: 100vw;
     display: flex;
     justify-content: center;
     background: #EAF2FD;
     margin-top: 4.87vh;
     height: 58.29vh;
+}
+
+@media (min-width: 768px) {
+    .about{
+        height: auto;
+    }
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
 }
